@@ -1,2 +1,2 @@
-# live-project-frontend-2-quick-bite-frontend
-live-project-frontend-2-quick-bite-frontend created by GitHub Classroom
+# Quickbite
+Quickbite is an online platform that connects registered food vendors with users.
