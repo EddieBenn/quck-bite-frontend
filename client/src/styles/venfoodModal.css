@@ -1,0 +1,19 @@
+.details {
+color: #1A512E;
+}
+.text-detail{
+  background-color: #1A512E;
+}
+.close-modal {
+  background-color: #1A512E;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+
+/* px-4 py-2 bg-green-500 text-white rounded */

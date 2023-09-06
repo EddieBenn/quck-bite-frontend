@@ -1,0 +1,11 @@
+.container{
+    margin-top: 100px;
+   
+}
+.userImg{
+    margin-inline: auto;
+    /* width: 1000px;
+    height: 420px; */
+    background-size: cover;
+    background-position: cover;
+}

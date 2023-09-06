@@ -1,0 +1,158 @@
+.popular {
+    margin-top: 50px;
+    width: 80%;
+    margin-inline: auto;
+    padding-left: 50px;
+    @media (max-width:480px) {
+       padding-left: 0; 
+    }
+}
+
+.popularFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.divider{
+    width: 100%;
+    max-width: 1080px;
+}
+
+.dropdown {
+
+    width: 20px;
+    height: 20px;
+    margin-right: 70px;
+    @media (max-width:480px) {
+       margin-right: 0;; 
+    }
+}
+
+.popularText {
+    font-family: "Poppins";
+    font-size: 32px;
+    font-weight: 700;
+    line-Height: 48px;
+    color: #1A512E
+}
+.hide{
+    display: none;
+}
+.cardContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    padding-right:  50px;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    gap: 20px;
+    @media (max-width:1200px) {
+        display: grid;
+          gap:20px
+        }
+        @media (max-width:768px) {
+           display: grid;
+           grid-template-columns: repeat(2, 1fr);
+       grid-template-rows: repeat(auto, 1fr);
+   
+             gap:20px
+           }
+    @media (max-width:480px) {
+        grid-template-columns: 1fr; 
+        
+     }
+}
+.Card{  
+    max-width: 400px;    
+    background: #D9D9D9;   
+    color: #1A512E;
+
+    width: 300px;
+    overflow: hidden;
+    box-shadow:0px 0px 15px -5px;
+    transition: 0.3s;
+    animation: ease-in; 
+    margin: 20px 10px 20px 30px ;
+    border-radius: 30px; width: 300px;
+    overflow: hidden;
+    box-shadow:0px 0px 15px -5px;
+    transition: 0.3s;
+    animation: ease-in; 
+    margin: 20px 10px 20px 30px ;
+    border-radius: 30px;
+    @media (max-width:480px) {
+       margin-bottom: 20px;
+        
+     }
+}
+.cardBody{
+    margin-top: 20px;
+    margin-bottom: 25px;
+   max-width: 300x;
+   padding: 0 10px;
+ 
+    
+}
+.cardHead{
+    overflow: hidden;
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+}
+
+
+.cardheading{
+    font-size: 24px;
+}
+.cardText{
+   color: #836868; 
+   max-width: 200px;
+   
+}
+.amount{
+    color: #836868;
+
+}
+.totalAmount{
+    color: #836868;
+    font-size: 20px;
+    padding-right: 10px;
+}
+.Card:hover{
+    /* background-color:#836868; */
+   
+    transform: scale(1.1);
+    box-shadow:0px 0px 15px 0px;
+         ;
+}
+.cardFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* .more{
+    @media (max-width:480px) {
+       width: 100%; 
+    }
+} */
+.more:hover{
+    background: #1a512eb3;
+}
+.spinner{
+    margin-inline: auto;
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+    
+  
+  }

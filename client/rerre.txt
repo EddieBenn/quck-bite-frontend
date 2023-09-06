@@ -1,0 +1,75 @@
+<div className="custom-form-container">
+<div className="custom-form-container">
+<form onSubmit={handleSubmit} className='form-edit'>
+ Input fields 
+<input
+type="text"
+placeholder="Name Of Owner"
+name="name_of_owner"
+value={vendor.name_of_owner}
+onChange={handleChange}
+className="w-full p-2 border border-gray-300 rounded mb-4 input-width"
+/>
+<input
+type="text"
+placeholder="Name of Restaurant"
+name="restaurant_name"
+value={vendor.restaurant_name}
+onChange={handleChange}
+className="w-full p-2 border border-gray-300 rounded mb-4 input-width"
+/>
+<input
+type="email"
+placeholder="Email"
+name="email"
+value={vendor.email}
+onChange={handleChange}
+className="w-full p-2 border border-gray-300 rounded mb-4 input-width"
+/>
+
+<input
+type="text"
+placeholder="Phone Number"
+name="phone_no"
+value={vendor.phone_no}
+onChange={handleChange}
+className="w-full p-2 border border-gray-300 rounded mb-4 input-width"
+/>
+<input
+type="text"
+placeholder="Address"
+name="address"
+value={vendor.address}
+onChange={handleChange}
+className="w-full p-2 border border-gray-300 rounded mb-4 input-width"
+/>
+<label htmlFor="">Cover Image</label>
+
+{/* File input */}
+<input
+type="file"
+placeholder="Cover Image"
+accept="image/*"
+name="coverImage"
+onChange={handleFileChange}
+className="w-full p-2 border border-gray-300 rounded mb-4 input-width"
+/>
+
+{/* Buttons */}
+<div id="profile" className='flex flex-row space-x-4'>
+<button
+type="submit"
+className="bg text-white rounded"
+>
+{loading ? "Loading..." : "Save"}
+</button>
+<button
+className="bg text-white rounded"
+onClick={handleCancel}
+>
+Cancel
+</button>
+</div>
+</form> 
+</div>
+</div>

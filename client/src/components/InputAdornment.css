@@ -1,0 +1,51 @@
+.textfield {
+  font-family: "Roboto Condensed", sans-serif;
+  position: relative;
+}
+
+.textfield__input {
+  border: 1px solid rgb(209, 213, 219);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.textfield__input-field {
+  border: 0;
+  padding-left: 10px;
+  width: 95%;
+}
+
+.textfield__input-field:focus {
+  outline: none;
+}
+
+.textfield__input-field::-webkit-input-placeholder {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.textfield__input:focus {
+  outline: none;
+}
+
+.textfield__input:focus + .textfield__adornment-placeholder {
+  display: none;
+}
+
+.textfield__adornment {
+  position: absolute;
+  top: 8px;
+  left: 0px;
+}
+
+.textfield__adornment-text {
+  color: #5d5d5d;
+}
+
+.textfield__adornment-placeholder {
+  margin-left: 5px;
+  color: #bdbdbd;
+}

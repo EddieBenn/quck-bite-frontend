@@ -1,0 +1,24 @@
+.foodContainer{
+  width: 100%;  
+}
+.FoodImage{
+    width: 100%;
+  /* height: 500px; */
+    margin-bottom: 100px;
+  /* margin: 0 auto; */
+  @media (max-width:768px) {
+    margin-top: 70px; 
+  }
+  
+}
+/* .overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    @media  (max-width:480px) {
+        height: 30%;
+    }
+} */

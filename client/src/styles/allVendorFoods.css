@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cover-photo{
+    height: 300px;
+    width: 100%;
+    background-image: url("../assets/cover_photo.jpeg");
+    background-size: cover;
+    margin: auto;
+}
+
+.vendorInfo{
+    margin: 1rem 0 3rem 2rem;
+}
+
+.vendorInfo h2{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.vendorInfo p{
+    color: #787878;
+}
+
+hr{
+    background-color: black;
+}
